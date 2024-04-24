@@ -4,4 +4,4 @@ services:
     build: ./microservices/user-service
   product-service:
     build: ./microservices/product-service
-command: ["docker-compose", "up"]
+command: ["compose", "up"]
