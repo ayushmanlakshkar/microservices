@@ -1,5 +1,5 @@
-# Use a base image
+# Use a base image suitable for your needs
 FROM alpine:latest
 
-# Set a placeholder command
-CMD ["echo", "Placeholder Dockerfile for deployment"]
+# Default command when the container starts
+CMD ["docker-compose", "up"]
