@@ -1,9 +1,7 @@
+version: '3'
 services:
   user-service:
     build: ./microservices/user-service
-    ports:
-      - "5000:5000"
   product-service:
     build: ./microservices/product-service
-    ports:
-      - "3000:3000"
+command: ["docker-compose", "up"]
