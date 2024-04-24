@@ -4,4 +4,3 @@ services:
     build: ./microservices/user-service
   product-service:
     build: ./microservices/product-service
-command: ["compose", "up"]

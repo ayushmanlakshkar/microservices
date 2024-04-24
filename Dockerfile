@@ -1,4 +1,5 @@
-# Use a base image suitable for your needs
+# Use a base image
 FROM alpine:latest
 
-
+# Set a placeholder command
+CMD ["echo", "Placeholder Dockerfile for deployment"]
