@@ -1,14 +1,9 @@
-version: '3'
 services:
   user-service:
-    build:
-      context: ./user-service
-      dockerfile: ./user-service/Dockerfile
+    build: ./microservices/user-service
     ports:
       - "5000:5000"
   product-service:
-    build:
-      context: ./product-service
-      dockerfile: ./product-service/Dockerfile
+    build: ./microservices/product-service
     ports:
       - "3000:3000"
